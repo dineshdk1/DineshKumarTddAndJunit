@@ -1,0 +1,5 @@
+package com.test.tddandjunit.project;
+
+public class removeFirst2Char {
+
+}

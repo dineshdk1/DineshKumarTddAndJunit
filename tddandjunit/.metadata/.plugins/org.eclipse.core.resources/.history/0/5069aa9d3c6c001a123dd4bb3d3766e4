@@ -1,0 +1,14 @@
+package com.test.tddandjunit.project;
+
+import java.util.Scanner;
+
+class App 
+{
+    public static void main( String[] args )
+    {
+        Scanner obj=new Scanner(System.in);
+        String string=obj.nextLine();
+        removeFirst2Char removefirst2char = new removeFirst2Char();
+        System.out.println(removefirst2char.remove(string));
+    }
+}

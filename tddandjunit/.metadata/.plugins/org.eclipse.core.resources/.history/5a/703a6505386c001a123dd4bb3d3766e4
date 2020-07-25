@@ -1,0 +1,14 @@
+package com.test.tddandjunit.project;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class removefirst2chars {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

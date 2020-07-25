@@ -1,0 +1,11 @@
+package com.test.tddandjunit.project;
+
+public class removeFirst2Char 
+{
+	public String remove(String string)
+	{
+		return null;
+	}
+	
+	
+}

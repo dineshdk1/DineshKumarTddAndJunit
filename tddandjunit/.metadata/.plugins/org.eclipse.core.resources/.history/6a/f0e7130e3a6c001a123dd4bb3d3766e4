@@ -1,0 +1,29 @@
+package com.test.tddandjunit.project;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class removefirst2chars {
+	
+	
+	/*
+	 * 1: testcase : “ABCD” => “BCD”
+	 * 2: testcase : “AACD” => “CD”
+	 * 3: testcase : “BACD” => “BCD” 
+	 * 4: testcase : “BBAA” => “BBAA” 
+	 * 5: testcase :  “AABAA” => “BAA” 
+	 * 
+	 */
+
+	@Test
+	void testcase1() 
+	{
+		removeFirst2Char removefirst2char = new removeFirst2Char(); 
+		String actual= removefirst2char.remove("ABCD");
+		assertEquals("BCD",actual);
+	}
+	
+	
+
+}
